@@ -1,6 +1,7 @@
 #WEY
 [rewrite_local]
 
+#车体图
 ^https:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api\/api\/v2\.0\/vehicle\/acquireVehicles url script-response-body https://raw.githubusercontent.com/Tlomlgm/Rewrite/main/WEY.js
 #个人界面
 ^https:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api\/api\/v1\.0\/userAuth\/route\/getUserInfo url script-response-body https://raw.githubusercontent.com/Tlomlgm/Rewrite/main/WEY.js
@@ -56,4 +57,4 @@ if (CheTiTu.test($request.url)) {
     WEY.data.material90Url = https://s2.loli.net/2024/01/09/wkALidNrSXhJnzv.png;
 }
 
-$done({ body: JSON.stringify(WEY) });</pre>
+$done({ body: JSON.stringify(WEY) });

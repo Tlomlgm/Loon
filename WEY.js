@@ -53,7 +53,7 @@ if (HuiYuan.test($request.url)) {
 }
 
 if (CheTiTu.test($request.url)) {
-    WEY.data.material90Url = 999999999999;
+    WEY.data.material90Url = https://s2.loli.net/2024/01/09/wkALidNrSXhJnzv.png;
 }
 
 $done({ body: JSON.stringify(WEY) });</pre>

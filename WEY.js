@@ -1,0 +1,23 @@
+#!name = WEY去广告
+#!desc = 过滤应用内推广，去掉发现商城Tab
+#!openUrl = https://apps.apple.com/app/id1227700032
+#!author = Tlomlgm
+#!keyword = 去广告
+#!homepage = https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοоοᴏοооοοᴏοoοооoοᴏοοοоoоoоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοοοoοоᴏoοоᴏᴏοоᴏοοоᴏoοоοᴏοоᴏοoоᴏᴏοοοoοоᴏoοоᴏᴏοоᴏοοоᴏoοоοᴏοоᴏο
+#!icon = https://raw.githubusercontent.com/Tlomlgm/Icon/main/messy/wey.png
+#!date = 2024-07-30
+
+[Script]
+
+#个人界面
+http-response ^https:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api\/api\/v1\.0\/userAuth\/route\/getUserInfo script-path=https://raw.githubusercontent.com/Tlomlgm/Cite/main/wey.js, requires-body=true, tag = 个人界面
+
+#会员积分
+http-response ^https:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api\/api\/v1\.0\/point\/querySumPoint script-path=https://raw.githubusercontent.com/Tlomlgm/Cite/main/wey.js, requires-body=true, tag = 会员积分
+
+#净化AD
+http-response ^https:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api\/api\/(wey\/.+|.+)\/content\/route\/(getWholeNodeContentInfo\?contentType=(MENU|APPSECONDAD)|getContentInfo) script-path=https://raw.githubusercontent.com/Tlomlgm/Cite/main/wey.js, requires-body=true, tag = 净化AD
+
+[MITM]
+
+hostname = gw-app-gateway.gwmapp-w.com

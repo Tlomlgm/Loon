@@ -1,0 +1,16 @@
+#!name= JavDB
+#!desc= 去开屏广告，及内部广告
+#!author= Tlomlgm
+#!homepage=
+#!icon=https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏоοоοᴏοооοοᴏοoοооoοᴏοοοоoоοᴏοοοᴏoᴏοоοοοᴏoоοоoᴏοоᴏᴏοоᴏоοᴏοoοоοοοоᴏоοᴏοooоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοοοoοоᴏoοоᴏᴏοоᴏοοоᴏoοоοᴏοоᴏοoоᴏᴏοoоοοоoᴏοоᴏᴏοоᴏоoоᴏᴏοоᴏοοоoοοооοοоᴏоoоᴏᴏοоᴏοοоοοοᴏoᴏοᴏoᴏοᴏоοoоᴏᴏοoооοоoοοᴏοоοoοoοooоoоᴏоοᴏooοоᴏоοоοᴏ
+#!system = iOS
+#!system_version =
+#!loon_version = 3.2.1(733)
+#!tag = 去广告
+
+[Script]
+http-response ^https:\/\/(api\.hechuangxinxi\.xyz|jdforrepam\.com)\/api\/(v1\/(ads|startup|users)|v4\/movies\/\w+) script-path=https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏоοоοᴏοооοοᴏοoοооoοᴏοοοоoоοᴏοοοᴏoᴏοоοοοᴏoоοоoᴏοоᴏᴏοоᴏоοᴏοoοоοοοоᴏоοᴏοooоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοοοoοоᴏoοоᴏᴏοоᴏοοоᴏoοоοᴏοоᴏοoоᴏᴏοοoоοоοοοᴏοᴏοᴏoоοооοοᴏοoοоοοoоᴏᴏοоᴏοοоoοοооοοоᴏоoоᴏᴏοoооοоoοοᴏοоοoοoοooоoоᴏоοоооοᴏoᴏ, requires-body=true, timeout=10, tag=JavDB
+http-request ^https:\/\/(api\.hechuangxinxi\.xyz|jdforrepam\.com)\/api\/v1\/movies\/\w+\/play\? script-path=https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏоοоοᴏοооοοᴏοoοооoοᴏοοοоoоοᴏοοοᴏoᴏοоοοοᴏoоοоoᴏοоᴏᴏοоᴏоοᴏοoοоοοοоᴏоοᴏοooоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοοοoοоᴏoοоᴏᴏοоᴏοοоᴏoοоοᴏοоᴏοoоᴏᴏοοoоοоοοοᴏοᴏοᴏoоοооοοᴏοoοоοοoоᴏᴏοоᴏοοоoοοооοοоᴏоoоᴏᴏοoооοоoοοᴏοоοoοoοooоoоᴏоοоооοᴏoᴏ, requires-body=false, timeout=10, tag=JavDB
+
+[MITM]
+hostname = api.pxxgg.xyz, api.ujvnmkx.cn, api.yijingluowangluo.xyz, api.hechuangxinxi.xyz

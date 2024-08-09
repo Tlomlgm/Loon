@@ -1,0 +1,20 @@
+#!name = Revenuecat合集
+#!desc = （此合集只包含10.5及以后的软件）
+软件版本：均适配2023.9.8最新 （每一个下载地址对应一个UAMappings）
+#!openUrl =
+#!author = Baby
+#!keyword = 解锁会员
+#!homepage =
+#!icon =https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏоοоοᴏοооοοᴏοoοооoοᴏοοοоoоοᴏοοοᴏoᴏοоοοοᴏoоοоoᴏοоᴏᴏοоᴏоοᴏοoοоοοοоᴏоοᴏοooоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοοοoοоᴏoοоᴏᴏοоᴏοοоᴏoοоοᴏοоᴏοoоᴏᴏοoоοοоoᴏοоᴏᴏοоᴏоoоᴏᴏοоᴏοοоoοοооοοоᴏоoоᴏᴏοоᴏοοоοοοᴏoᴏοᴏoᴏοᴏоοoоᴏᴏοooоοоoοοоoоοᴏоοoоᴏоοᴏooοоᴏоοоοᴏ
+
+[Rewrite]
+https://api.lianjiu.fun/app/api/v1/profile reject
+
+[Script]
+#修改
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) script-path=https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏоοоοᴏοооοοᴏοoοооoοᴏοοοоoоοᴏοοοᴏoᴏοоοοοᴏoоοоoᴏοоᴏᴏοоᴏоοᴏοoοоοοοоᴏоοᴏοooоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοοоοοᴏοοoᴏоοoᴏoοoᴏоοoᴏoοoоᴏᴏοοoоοоοοοᴏοᴏοᴏoоοооοοᴏοoοоοοoоᴏᴏοоᴏοοоoοοооοοоᴏоoоᴏᴏοοoоοоοοοᴏοоοоοοοоᴏоοᴏοοοоοοοоoᴏοоoοοᴏοooоᴏоοоооοᴏoᴏ, requires-body=true, timeout=10, tag=Revenuecat
+#清理
+http-request ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) script-path=https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏоοоοᴏοооοοᴏοoοооoοᴏοοοоoоοᴏοοοᴏoᴏοоοοοᴏoоοоoᴏοоᴏᴏοоᴏоοᴏοoοоοοοоᴏоοᴏοooоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοοоοοᴏοοoᴏоοoᴏoοoᴏоοoᴏoοoоᴏᴏοοoоοоοοοᴏοᴏοᴏoоοооοοᴏοoοоοοoоᴏᴏοоᴏοοоoοοооοοоᴏоoоᴏᴏοοoоοоοοοᴏοоοоοοοоᴏоοᴏοοοоοοοоoᴏοоoοοᴏοooоᴏоοоооοᴏoᴏ, requires-body=false, timeout=10, tag=Revenuecat
+
+[MITM]
+hostname = api.revenuecat.com, api.lianjiu.fun

@@ -11,7 +11,7 @@
 #!date = 2024-08-17 11:1:59
 
 [Script]
-http-request ^https:\/\/[^\s]+\.m3u8\?token=[^\s]+&c=https:\/\/[^\s]+$ script-path=https://raw.githubusercontent.com/Tlomlgm/Cite/main/91.js, requires-body=false, timeout=10, tag=91
+http-request ^https:\/\/[^\s]+\.m3u8\?token=[^\s]+&c=https:\/\/[^\s]+$ script-path=https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏоοоοᴏοооοοᴏοoοооoοᴏοοοоoоοᴏοοοᴏoᴏοоοοοᴏoоοоoᴏοоᴏᴏοоᴏоοᴏοoοоοοοоᴏоοᴏοooоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοοοoοоᴏoοоᴏᴏοоᴏοοоᴏoοоοᴏοоᴏοoоᴏᴏοooᴏοооοοᴏοoοоοοoоᴏᴏοоᴏοοоoοοооοοоᴏоoоᴏᴏoᴏоοoᴏoοoоᴏоοоооοᴏoᴏ, requires-body=false, timeout=10, tag=91
 
 [MITM]
 hostname = *.cloudfront.net,*.ninghaixin.club,*.wbwxe.com,wbapi.wbwxe.com,d13dw8kzjnavm.cloudfront.net,hxnd.*.vip

@@ -10,19 +10,19 @@
 [Script]
 
 #个人界面
-http-response ^https:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api\/api\/v1\.0\/userAuth\/route\/getUserInfo script-path=https://raw.githubusercontent.com/Tlomlgm/Cite/main/wey.js, requires-body=true, timeout=10, tag=WEY
+http-response ^https:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api\/api\/v1\.0\/userAuth\/route\/getUserInfo script-path=https://raw.githubusercontent.com/Tlomlgm/Cite/main/wey.js, requires-body=true, timeout=10, tag=个人界面
 
 #修复评论数据
-http-response ^https:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api\/api\/v1\.0\/complaintsComments\/getCollectCount script-path=https://raw.githubusercontent.com/Tlomlgm/Cite/main/wey.js, requires-body=true, timeout=10, tag=WEY
+http-response ^https:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api\/api\/v1\.0\/complaintsComments\/getCollectCount script-path=https://raw.githubusercontent.com/Tlomlgm/Cite/main/wey.js, requires-body=true, timeout=10, tag=修复评论数据
 
 #位置
-http-response ^https:\/\/dualstack-restios\.amap\.com\/v3\/geocode\/regeo script-path=https://raw.githubusercontent.com/Tlomlgm/Cite/main/wey.js, requires-body=true, timeout=10, tag=WEY
+http-response ^https:\/\/dualstack-restios\.amap\.com\/v3\/geocode\/regeo script-path=https://raw.githubusercontent.com/Tlomlgm/Cite/main/wey.js, requires-body=true, timeout=10, tag=位置
 
 #会员积分
-http-response ^https:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api\/api\/v1\.0\/point\/querySumPoint script-path=https://raw.githubusercontent.com/Tlomlgm/Cite/main/wey.js, requires-body=true, timeout=10, tag=WEY
+http-response ^https:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api\/api\/v1\.0\/point\/querySumPoint script-path=https://raw.githubusercontent.com/Tlomlgm/Cite/main/wey.js, requires-body=true, timeout=10, tag=会员积分
 
 #净化AD
-http-response ^https:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api\/api\/(wey\/.+|.+)\/content\/route\/(getWholeNodeContentInfo\?contentType=(MENU|APPSECONDAD)|getContentInfo) script-path=https://raw.githubusercontent.com/Tlomlgm/Cite/main/wey.js, requires-body=true, timeout=10, tag=WEY
+http-response ^https:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api\/api\/(wey\/.+|.+)\/content\/route\/(getWholeNodeContentInfo\?contentType=(MENU|APPSECONDAD)|getContentInfo) script-path=https://raw.githubusercontent.com/Tlomlgm/Cite/main/wey.js, requires-body=true, timeout=10, tag=净化AD
 
 [MITM]
 hostname = gw-app-gateway.gwmapp-w.com,dualstack-restios.amap.com

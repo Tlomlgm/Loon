@@ -25,5 +25,4 @@ http-response ^https:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api\/api\/v1\.0\/poi
 http-response ^https:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api\/api\/(wey\/.+|.+)\/content\/route\/(getWholeNodeContentInfo\?contentType=(MENU|APPSECONDAD)|getContentInfo) script-path=https://raw.githubusercontent.com/Tlomlgm/Cite/main/wey.js, requires-body=true, timeout=10, tag=WEY
 
 [MITM]
-
 hostname = gw-app-gateway.gwmapp-w.com,dualstack-restios.amap.com
